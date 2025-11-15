@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import Sidebar from './sidebar.jsx';
 
-const API_URL = 'https://chatbot-backend-uj6p.onrender.com';
+const API_URL = 'https://chatbot-backend-uj6p.onrender.com/api';
 
 function ChatInterface({ onLogout }) {
   const [messages, setMessages] = useState([]);
